@@ -12,3 +12,8 @@ The function percepton_train(x_train, y_train, 10) will set the maximum number o
 The function percepton_test(x_test, y_test, learned_weight) will use the learned weight vector to return the average prediction error on the test data.
 The function average_percepton_train(x_train, y_train, 10) will set the maximum number of epochs to 10 and train the train data using the average perceptron algorithm. It returns the average learned weight vector.
 The function average_percepton_test(x_test, y_test, w_avg) will use the average learned weight vector to return the average prediction error on the test data.
+# SVM
+For the SVM, when you run the run.sh file, it will run the functions replace_values(), train_test_split(), schedule_1_error(), and schedule_2_error sequentially.
+The function schedule_1_error() uses the schedule of learning rate in question 2-(a) and returns each training and test accuracy using different values of parameter C. 
+Inside the function schedule_1_error(), there is a function svm_primal_sgd(X, y, C, lr_schedule) which returns the learned weighted vector 'w' and bias parameter 'b'. 
+The function schedule_2_error() uses the schedule of learning rate in question 2-(b) and does the same process as the function schedule_1_error(). 
