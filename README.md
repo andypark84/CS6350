@@ -17,3 +17,8 @@ For the SVM, when you run the run.sh file, it will run the functions replace_val
 The function schedule_1_error() uses the schedule of learning rate in question 2-(a) and returns each training and test accuracy using different values of parameter C. 
 Inside the function schedule_1_error(), there is a function svm_primal_sgd(X, y, C, lr_schedule) which returns the learned weighted vector 'w' and bias parameter 'b'. 
 The function schedule_2_error() uses the schedule of learning rate in question 2-(b) and does the same process as the function schedule_1_error(). 
+# Neural Network
+For the Neural Network, if you run the run.sh file, it will print the gradient with respect to all the edge weights given one training example, and print the train and test error for each setting of the width using two different ways of weight initializing.
+The class Compute_gradient is a class to implement the backpropagation algorithm and compute the gradient with respect to all the edge weights. 
+The class CustomNeuralNetwork is a class to implement the stochastic gradient descent algorithm to learn the neural network from the training data. It uses the standard Gaussian distribution to initialize the weights. 
+The class CustomNeuralNetwork_2 is a class to implement the stochastic gradient descent algorithm to learn the neural network from the training data. It initializes all the weights with 0. 
