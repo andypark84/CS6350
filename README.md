@@ -22,3 +22,7 @@ For the Neural Network, if you run the run.sh file, it will print the gradient w
 The class Compute_gradient is a class to implement the backpropagation algorithm and compute the gradient with respect to all the edge weights. 
 The class CustomNeuralNetwork is a class to implement the stochastic gradient descent algorithm to learn the neural network from the training data. It uses the standard Gaussian distribution to initialize the weights. 
 The class CustomNeuralNetwork_2 is a class to implement the stochastic gradient descent algorithm to learn the neural network from the training data. It initializes all the weights with 0. 
+# Final Projecct
+version1.ipynb has the code for implementing XGBoost Classifier.
+version2.ipynb has the code for implementing SVM.
+version3.ipynb has the code for implementing Naive Bayes.
